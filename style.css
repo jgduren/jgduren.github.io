@@ -1,0 +1,52 @@
+*{background-color:#660033;}
+
+body 
+{font-family:sans-serif;}
+
+h1
+{font-size: 36px;}
+
+h2
+{font-size:24px;}
+
+h3
+{
+	font-size:18px;
+	color:#505050;
+	font-family:sans-serif;
+	font-weight:bold;
+	font-style:italic;
+	text-transform:uppercase;
+	text-align:center;
+
+}
+
+h4
+{font-size:18px;
+	color:black;
+	font-family:serif;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+	
+	
+p {line-height:24px;}
+
+
+.paragraph 
+{background-color:#660033;
+	color:white;
+	padding:50px 10px;
+	margin:10px;
+}
+
+a:link{color:black; text-decoration:none;}
+a:visited{color:#505050;}
+a:hover{color:#505050;}
+
+p a  {font-weight:bold;}
+
+li>a {font-weight:bold;}
+
+/*}
+
