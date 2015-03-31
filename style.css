@@ -1,4 +1,4 @@
-*{background-color:#660033;}
+*{background-color:white;}
 
 body 
 {font-family:sans-serif;}
@@ -34,8 +34,8 @@ p {line-height:24px;}
 
 
 .paragraph 
-{background-color:#660033;
-	color:white;
+{background-color:white;
+	color:blue;
 	padding:50px 10px;
 	margin:10px;
 }
