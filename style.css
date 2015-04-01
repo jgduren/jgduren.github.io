@@ -24,7 +24,7 @@ h3
 h4
 {font-size:18px;
 	color:black;
-	font-family:serif;
+	font-family:sans-serif;
 	font-weight:bold;
 	text-transform:uppercase;
 }
@@ -47,6 +47,25 @@ a:hover{color:#505050;}
 p a  {font-weight:bold;}
 
 li>a {font-weight:bold;}
+
+div {
+    height:50px;
+    width:120px;
+    border-color:#6495ED;
+    background-color:#BCD2EE;
+    border-style: solid;
+    border-width:2px;
+    border-radius:5px;
+    margin:auto;
+    text-align:center;
+}
+
+a{
+    text-decoration:none;
+    color:magenta;
+    font-family:cursive;
+}
+
 
 /*}
 
