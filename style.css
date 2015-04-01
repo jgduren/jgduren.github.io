@@ -48,7 +48,8 @@ p a  {font-weight:bold;}
 
 li>a {font-weight:bold;}
 
-div {
+.button
+{
     height:50px;
     width:120px;
     border-color:#6495ED;
