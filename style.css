@@ -5,19 +5,19 @@ body
 
 h1
 {font-size: 36px;
-color:blue;
+color:007F64;
 	
 }
 
 h2
 {font-size:24px;
-color:blue;
+color:007F64;
 }
 
 h3
 {
 	font-size:18px;
-	color:blue;
+	color:007F64;
 	font-family:sans-serif;
 	font-weight:bold;
 	font-style:italic;
@@ -28,7 +28,7 @@ h3
 
 h4
 {font-size:18px;
-	color:blue;
+	color:007F64;
 	font-family:sans-serif;
 	font-weight:bold;
 	text-transform:uppercase;
@@ -45,7 +45,7 @@ p {line-height:24px;}
 	margin:10px;
 }
 
-a:link{color:black; text-decoration:none;}
+a:link{color:00FFC7; text-decoration:none;}
 a:visited{color:#505050;}
 a:hover{color:#505050;}
 
