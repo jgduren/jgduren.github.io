@@ -1011,3 +1011,10 @@ hr {
 .affix {
   position: fixed;
 }
+
+
+a:link{color:00FFC7; text-decoration:italic;}
+a:visited{color:#505050;}
+a:hover{color:#505050;}
+
+
