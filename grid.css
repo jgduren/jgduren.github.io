@@ -1018,3 +1018,34 @@ a:visited{color:#505050;}
 a:hover{color:#505050;}
 
 
+h1
+{font-size: 36px;
+color:007F64;
+	
+}
+
+h2
+{font-size:24px;
+color:007F64;
+}
+
+h3
+{
+	font-size:18px;
+	color:007F64;
+	font-family:sans-serif;
+	font-weight:bold;
+	font-style:italic;
+	text-transform:uppercase;
+	text-align:center;
+
+}
+
+h4
+{font-size:18px;
+	color:007F64;
+	font-family:sans-serif;
+	font-weight:bold;
+	text-transform:uppercase;
+}
+	
