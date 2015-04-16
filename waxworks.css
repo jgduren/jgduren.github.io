@@ -20,8 +20,8 @@ i.feature {	font-size:100px;}
 
 .btn-blue {
 	background-color:#FFF;
-	border-color:#4CFFD8;
-	color:#4CFFD8;
+	border-color:#00CC9F;
+	color:#00CC9F;
 }
 
 .btn-orange {
@@ -37,7 +37,7 @@ i.feature {	font-size:100px;}
 .footer .btn-default {
   color: #007F64;
   background-color: #FFF;
-  border-color: #FF5919;
+  border-color: #007F64;
 }
 
 #features {padding: 100px 0px;}
