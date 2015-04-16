@@ -14,20 +14,20 @@
 i.feature {	font-size:100px;}
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-  color: #FF5800;
+  color: #007F64;
   background-color: #FFF;
 }
 
 .btn-blue {
 	background-color:#FFF;
-	border-color:#3448E4;
-	color:#3448E4;
+	border-color:#4CFFD8;
+	color:#4CFFD8;
 }
 
 .btn-orange {
 	background-color:#FFF;
-	border-color:#007F64;
-	color:#FF5800;
+	border-color:#00FFC7;
+	color:00FFC7;
 }
 
 .form-control {
