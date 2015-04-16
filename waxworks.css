@@ -1,5 +1,5 @@
 .navbar-default {
-	background-color:#FF5800;
+	background-color:#007F64;
 	border-color:#FFF;
 }
 
@@ -26,7 +26,7 @@ i.feature {	font-size:100px;}
 
 .btn-orange {
 	background-color:#FFF;
-	border-color:#FF5800;
+	border-color:#007F64;
 	color:#FF5800;
 }
 
@@ -35,7 +35,7 @@ i.feature {	font-size:100px;}
 }
 
 .footer .btn-default {
-  color: #FF5800;
+  color: #007F64;
   background-color: #FFF;
   border-color: #FF5919;
 }
@@ -78,19 +78,19 @@ i.feature {	font-size:100px;}
 
 #action .input-group {margin-top:19px;}
 
-#action .btn-default {border:1px solid #FF5800;color:#FF5800;}
+#action .btn-default {border:1px solid #007F64;color:#007F64;}
 
 #faq {padding: 50px 0px 50px 0px;}
 #faq h2 {text-align:right;}
 
 #faq .panel-default>.panel-heading {
-  color: #FF5800;
+  color: #007F64;
   background-color: #FFF;
-  border-color: #FF5800;
+  border-color: #007F64;
 }
 
 #faq .panel-default {
-  border-color: #FF5800;
+  border-color: #007F64;
 }
 
 
@@ -102,6 +102,6 @@ i.feature {	font-size:100px;}
 
 .footer small {color:#FFF;}
 
-.footer a {color:#FF5800;}
+.footer a {color:#007F64;}
 
 .footer .copyright {padding:25px 0 0 0px;}
