@@ -25,19 +25,7 @@
 		  /* Margin bottom by footer height */
 		  margin-bottom: 60px;
 		}
-		<script src="http://maps.googleapis.com/maps/api/js"></script>
-<script>
-function initialize() {
-  var mapProp = {
-    center:new google.maps.LatLng(51.508742,-0.120850),
-    zoom:5,
-    mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
-  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-}
-google.maps.event.addDomListener(window, 'load', initialize);
-</script> 
-/*end of map*/
+	
 		</style>
 		
 		<title>Woodinville Waxworks</title>
@@ -232,7 +220,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
 				</div>
 				<div class="row">
 					<div class="col-xs-12 col-sm-8 col-sm-offset-2">
-						<div id="googleMap" style="width:500px;height:380px;"></div>
+					<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script><div style="overflow:hidden;height:500px;width:600px;"><div id="gmap_canvas" style="height:500px;width:600px;"></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style><a class="google-map-code" href="http://wordpress-themes.org" id="get-map-data">wordpress</a></div><script type="text/javascript"> function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(47.7279072,-122.13776000000001),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(47.7279072, -122.13776000000001)});infowindow = new google.maps.InfoWindow({content:"<b>Woodinville Lavender</b><br/>14223 Woodinville-Redmond Rd NE<br/>98052 Redmond" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
 						<p id="subtitle" class="text-center lead"> Honey Candles are inspired by the natural beauty around us... 100% pure natural beeswax Woodinville Waxworks Candles are hand-made at our environmentally friendly shop in Woodinville, Washington.</p>
 					</div><!-- .col-xs-12 col-sm-8 col-sm-offset-8 -->
 				</div><!-- .row -->
