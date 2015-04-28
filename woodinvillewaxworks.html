@@ -25,7 +25,19 @@
 		  /* Margin bottom by footer height */
 		  margin-bottom: 60px;
 		}
-		
+		<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+function initialize() {
+  var mapProp = {
+    center:new google.maps.LatLng(51.508742,-0.120850),
+    zoom:5,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script> 
+/*end of map*/
 		</style>
 		
 		<title>Woodinville Waxworks</title>
@@ -215,11 +227,12 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12">
-						<h2 class="text-center">Our Products</h2>
+						<h2 class="text-center">Contact Us</h2>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-xs-12 col-sm-8 col-sm-offset-2">
+						<div id="googleMap" style="width:500px;height:380px;"></div>
 						<p id="subtitle" class="text-center lead"> Honey Candles are inspired by the natural beauty around us... 100% pure natural beeswax Woodinville Waxworks Candles are hand-made at our environmentally friendly shop in Woodinville, Washington.</p>
 					</div><!-- .col-xs-12 col-sm-8 col-sm-offset-8 -->
 				</div><!-- .row -->
